@@ -53,23 +53,37 @@ body {
 #post-image img {
     object-fit: contain;
     width: 100%;
+    margin-bottom: 0.5em;
+}
+
+#post-image figcaption {
+    color: darkslategrey;
+    text-align: center;
+    font-style: italic;
 }
 
 #post-text {
     grid-area: text;
+    margin-top: 1.8em;
+}
+
+#post-text q {
+    display: inline-block;
+    text-align: left;
+    padding: 0 1em;
+    font-size: 1.1em;
+}
+
+#post-text p a {
+    font-size: 0.9em;
+    padding: 0 0.5em;
 }
 
 #post-text p {
     text-align: left;
     padding: 0 1em;
     font-size: 1.1em;
-
-}
-
-#post-text h3 {
-    text-align: left;
-    font-size: 1.2em;
-    padding: 0 1em;
+    color: black;
 }
 
 #post-text a {
@@ -77,6 +91,17 @@ body {
     color: #8b0000; 
     font-size: 1.2em;
     padding: 0 1em;
+}
+
+
+
+
+
+#post-text h3 {
+    text-align: left;
+    font-size: 1.2em;
+    padding: 0 1em;
+    color: black;
 }
 
 #post-text a:hover {
